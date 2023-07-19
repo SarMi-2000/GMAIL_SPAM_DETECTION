@@ -4,7 +4,7 @@ This repository contains code for a spam classification model that uses a logist
 
 ## Dataset
 
-The dataset used for training and testing the model is stored in the `SPAM.csv`(SPAM.csv) file. It contains email messages labeled as spam or ham. The `type` column contains the labels, which are mapped to binary values (1 for spam, 0 for ham) in the preprocessing stage.
+The dataset used for training and testing the model is stored in the [SPAM.csv](SPAM.csv) file. It contains email messages labeled as spam or ham. The `type` column contains the labels, which are mapped to binary values (1 for spam, 0 for ham) in the preprocessing stage.
 
 ## Preprocessing
 
@@ -23,15 +23,15 @@ A logistic regression classifier is trained on the training set using the sklear
 
 ## Evaluation
 
-The accuracy of the spam classification model is evaluated using the accuracy_score metric from sklearn.metrics. The accuracy percentage is 87.5%.
+The accuracy of the spam classification model is evaluated using the accuracy_score metric from sklearn.metrics. The accuracy percentage is `87.5%`.
 
 ## Usage
 
 To run the spam classification model, follow these steps:
 
 1. Install the necessary dependencies listed below.
-2. Ensure that the `SPAM.csv`(SPAM.csv) dataset file is located in the same directory.
-3. Run the `spam.py`(spam.py) script.
+2. Ensure that the [SPAM.csv](SPAM.csv) dataset file is located in the same directory.
+3. Run the [spam.py](spam.py) script.
 
 ## Dependencies
 
