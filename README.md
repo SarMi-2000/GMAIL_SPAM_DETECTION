@@ -4,7 +4,7 @@ This repository contains code for a spam classification model that uses a logist
 
 ## Dataset
 
-The dataset used for training and testing the model is stored in the `SPAM.csv` file. It contains email messages labeled as spam or ham. The `type` column contains the labels, which are mapped to binary values (1 for spam, 0 for ham) in the preprocessing stage.
+The dataset used for training and testing the model is stored in the [SPAM.csv](SPAM.csv) file. It contains email messages labeled as spam or ham. The `type` column contains the labels, which are mapped to binary values (1 for spam, 0 for ham) in the preprocessing stage.
 
 ## Preprocessing
 
